@@ -12,12 +12,9 @@
 
 #items{
 	display: flex;
-<<<<<<< HEAD:css/Style_Chal_doNotuse.css
 	flex-direction: row;
-=======
 	justify-content: space-around;
 	flex-wrap: wrap;
->>>>>>> 4ab53f3a1f79d0ec951322da06d4182ee2f23219:css/Style_Chal.css
 }
 
 #item{
