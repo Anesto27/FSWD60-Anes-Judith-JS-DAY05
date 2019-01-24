@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Shopping Cart</title>
+	<link rel="stylesheet" type="text/css" href="css/Style_Chal.css">
+</head>
+<body>
+
+	<div class = container>
+
+		<div class="Row1">
+			<div id="Item1"></div>
+			<div id="Item2"></div>
+			<div id="Item3"></div>					
+		</div>
+		<div class=Row2>
+			<div id="Item4"></div>
+			<div id="Item5"></div>
+			
+		</div>
+		
+	</div>
+
+
+	<script src="JSON/challange.json" type="text/javascript"></script>
+
+
+
+	<script>
+
+		for (i=0; i < selection.length; i++) {
+
+			var data = selection[i];
+
+			
+		document.getElementById("Item1").innerHTML += "<div id ='details'><img src='"+data.img +"'></div>";
+			
+			
+		}
+	
+
+	</script>
+</body>
+</html>
