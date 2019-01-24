@@ -1,5 +1,19 @@
 #table {
 	background-color: lightgrey;
 	border:  1px solid darkgrey;
-	padding: 5px;
+	padding: 10px;
+	margin: 0 auto;
+
+}
+#table th{
+	font-size: 20pt;
+	text-align: center;
+	padding-left: 20px;
+	border: 1px solid black;
+}
+#table td{
+		font-size: 15pt;
+		text-align: center;
+		border: 1px solid black;
+
 }

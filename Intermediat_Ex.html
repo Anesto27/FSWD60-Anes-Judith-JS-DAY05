@@ -16,21 +16,12 @@
 
 		<!-- <div id="demo"></div> -->
 		
-	
-
-
-
-
-
-
-
-
-
-
 
 	<script type="text/javascript" src="JSON/Intermediat_Ex.json"></script>
 
 	<script>
+					document.getElementById("table").innerHTML += "<tr><th>Unique ID</th><th>First Name</th><th>Last Name</th><th>Email Address</th><th>Job Title</th><th>Salary</th></tr>";
+
 		for (i=0; i < data.length; i++) {
 
 			document.getElementById("table").innerHTML += "<tr><td>"+data[i].userId+"</td><td>"+data[i].firstName+"</td><td>"+data[i].lastName+"</td><td>"+data[i].emailAddress+"</td><td>"+data[i].jobTitleName+"</td><td>"+data[i].yearlySalary+"</td></tr>";
