@@ -22,16 +22,35 @@
 
 
 	<script>
+		
+var cart =[];
+		function carti(data){
 
-		for (i=0; i < selection.length; i++) {
+			cart.push(data);
+			console.log(cart);
 
-			var data = selection[i];
+		}
+
+
+		for (let i=0; i < selection.length; i++) {
+
+			let data = selection[i];
+
+			var descp= selection[i].itemDes+selection[i].Price;
 
 			
-		document.getElementById("items").innerHTML += "<div id ='item'><img src='"+data.img +"'></div>";
-			
+		document.getElementById("items").innerHTML += "<div id ='item'><img src='"+data.img +"'><p>"+descp+"</p><button class='btm'>Buy</button></div>";
 			
 		}
+		var n =document.getElementsByClassName("btm");
+				for (let i=0; i < selection.length; i++) {
+					
+					n[i].addEventListener('click',function(){
+						carti(selection[i])
+					},false);
+
+}
+		
 	
 
 	</script>
