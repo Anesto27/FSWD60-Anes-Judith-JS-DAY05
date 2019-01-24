@@ -1,0 +1,135 @@
+var data = [{
+
+   "userId": "1001",
+
+   "firstName": "Lisa",
+
+   "lastName": "Jonathan",
+
+   "emailAddress": "Lisa@whateveremail.com",
+
+   "jobTitleName": "Analyst",
+
+   "yearlySalary": "\u20ac 30.000",
+
+}, {
+
+   "userId": "1002",
+
+   "firstName": "Kurt",
+
+   "lastName": "Span",
+
+   "emailAddress": "Kurt@whateveremail.com",
+
+   "jobTitleName": "Analyst",
+
+   "yearlySalary": "\u20ac 35.000",
+
+}, {
+
+   "userId": "1003",
+
+   "firstName": "Anes",
+
+   "lastName": "King",
+
+   "emailAddress": "Anes@whateveremail.com",
+
+   "jobTitleName": "Senior Analyst",
+
+   "yearlySalary": "\u20ac 50.000",
+
+}, {
+   "userId": "1004",
+
+   "firstName": "Jacob",
+
+   "lastName": "Englisch",
+
+   "emailAddress": "Jakob@whateveremail.com",
+
+   "jobTitleName": "Junior Analyst",
+
+   "yearlySalary": "\u20ac 25.000",
+
+}, {
+   "userId": "1005",
+
+   "firstName": "Martha",
+
+   "lastName": "Little",
+
+   "emailAddress": "Martha@whateveremail.com",
+
+   "jobTitleName": "Administrator",
+
+   "yearlySalary": "\u20ac 27.000",
+
+}, {
+   "userId": "1006",
+
+   "firstName": "Goran",
+
+   "lastName": "Stevic",
+
+   "emailAddress": "Goran@whateveremail.com",
+
+   "jobTitleName": "Specialist",
+
+   "yearlySalary": "\u20ac 60.000",
+
+}, {
+   "userId": "1007",
+
+   "firstName": "Serri,",
+
+   "lastName": "Hard",
+
+   "emailAddress": "Serri@whateveremail.com",
+
+   "jobTitleName": "Software Engineer",
+
+   "yearlySalary": "\u20ac 40.000",
+
+}, {
+   "userId": "1008",
+
+   "firstName": "Benjamin",
+
+   "lastName": "Schneider",
+
+   "emailAddress": "Benjamin@whateveremail.com",
+
+   "jobTitleName": "Analyst",
+
+   "yearlySalary": "\u20ac 30.000",
+
+}, {
+   "userId": "1009",
+
+   "firstName": "Theo",
+
+   "lastName": "Parker",
+
+   "emailAddress": "Theo@whateveremail.com",
+
+   "jobTitleName": "Specialist",
+
+   "yearlySalary": "\u20ac 60.000",
+
+}, {
+   "userId": "1010",
+
+   "firstName": "Simon",
+
+   "lastName": "Dontcheat",
+
+   "emailAddress": "Theo@whateveremail.com",
+
+   "jobTitleName": "Analyst",
+
+   "yearlySalary": "\u20ac 30.000",
+}
+
+];
