@@ -9,15 +9,9 @@
 
 	<div class = container>
 
-		<div class="Row1">
-			<div id="Item1"></div>
-			<div id="Item2"></div>
-			<div id="Item3"></div>					
-		</div>
-		<div class=Row2>
-			<div id="Item4"></div>
-			<div id="Item5"></div>
-			
+		<div id="items">
+								
+		
 		</div>
 		
 	</div>
@@ -34,7 +28,7 @@
 			var data = selection[i];
 
 			
-		document.getElementById("Item1").innerHTML += "<div id ='details'><img src='"+data.img +"'></div>";
+		document.getElementById("items").innerHTML += "<div id ='item'><img src='"+data.img +"'></div>";
 			
 			
 		}
